@@ -8,12 +8,22 @@ const dataPath = path.resolve(process.cwd(), 'bank-data.json');
 let data = { accounts: [] };
 let saving = false;
 
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout,
-});
+let rl;
 
-const ask = (question) => new Promise((resolve) => rl.question(question, resolve));
+if (require.main === module) {
+  rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout,
+  });
+}
+
+
+const ask = (question) =>
+  new Promise((resolve) => {
+    if (!rl) return resolve('');
+    rl.question(question, resolve);
+  });
+
 
 function loadData() {
   if (!fs.existsSync(dataPath)) {
@@ -443,4 +453,16 @@ process.on('SIGINT', () => {
   process.exit(0);
 });
 
-main();
+if (require.main === module) {
+  main();
+}
+
+module.exports = {
+  generateAccountId,
+  findAccountById,
+  formatMoney,
+  depositFunds,
+  withdrawFunds,
+  data,
+};
+

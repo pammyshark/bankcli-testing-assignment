@@ -1,0 +1,224 @@
+{
+  "accounts": [
+    {
+      "id": "ACC-9015",
+      "holderName": "pam",
+      "balance": null,
+      "createdAt": "2026-02-13T05:36:14.309Z",
+      "transactions": [
+        {
+          "type": "DEPOSIT",
+          "amount": 200,
+          "timestamp": "2026-02-13T05:36:14.309Z",
+          "balanceAfter": 200,
+          "description": "Initial deposit"
+        },
+        {
+          "type": "DEPOSIT",
+          "amount": -400,
+          "timestamp": "2026-02-13T06:10:05.957Z",
+          "balanceAfter": -200,
+          "description": "Deposit"
+        },
+        {
+          "type": "DEPOSIT",
+          "amount": null,
+          "timestamp": "2026-02-13T06:13:03.293Z",
+          "balanceAfter": null,
+          "description": "Deposit"
+        },
+        {
+          "type": "DEPOSIT",
+          "amount": 0,
+          "timestamp": "2026-02-13T06:17:39.101Z",
+          "balanceAfter": null,
+          "description": "Deposit"
+        },
+        {
+          "type": "DEPOSIT",
+          "amount": 543,
+          "timestamp": "2026-02-13T06:18:14.951Z",
+          "balanceAfter": null,
+          "description": "Deposit"
+        },
+        {
+          "type": "WITHDRAWAL",
+          "amount": 3454,
+          "timestamp": "2026-02-13T06:18:49.508Z",
+          "balanceAfter": null,
+          "description": "Withdrawal"
+        }
+      ]
+    },
+    {
+      "id": "ACC-3115",
+      "holderName": "pam",
+      "balance": 310,
+      "createdAt": "2026-02-13T05:36:46.815Z",
+      "transactions": [
+        {
+          "type": "DEPOSIT",
+          "amount": 300,
+          "timestamp": "2026-02-13T05:36:46.815Z",
+          "balanceAfter": 300,
+          "description": "Initial deposit"
+        },
+        {
+          "type": "WITHDRAWAL",
+          "amount": -25,
+          "timestamp": "2026-02-13T06:22:54.184Z",
+          "balanceAfter": 325,
+          "description": "Withdrawal"
+        },
+        {
+          "type": "WITHDRAWAL",
+          "amount": 15,
+          "timestamp": "2026-02-13T06:23:12.697Z",
+          "balanceAfter": 310,
+          "description": "Withdrawal"
+        }
+      ]
+    },
+    {
+      "id": "ACC-6096",
+      "holderName": "$$4rasd",
+      "balance": -1,
+      "createdAt": "2026-02-13T05:45:32.533Z",
+      "transactions": [
+        {
+          "type": "DEPOSIT",
+          "amount": 45,
+          "timestamp": "2026-02-13T05:45:32.533Z",
+          "balanceAfter": 45,
+          "description": "Initial deposit"
+        },
+        {
+          "type": "WITHDRAWAL",
+          "amount": 40,
+          "timestamp": "2026-02-13T06:40:02.151Z",
+          "balanceAfter": 5,
+          "description": "Withdrawal"
+        },
+        {
+          "type": "WITHDRAWAL",
+          "amount": 6,
+          "timestamp": "2026-02-13T06:40:19.615Z",
+          "balanceAfter": -1,
+          "description": "Withdrawal"
+        }
+      ]
+    },
+    {
+      "id": "ACC-6291",
+      "holderName": "ADFASDFAAS",
+      "balance": 346,
+      "createdAt": "2026-02-13T05:45:48.819Z",
+      "transactions": [
+        {
+          "type": "DEPOSIT",
+          "amount": 323,
+          "timestamp": "2026-02-13T05:45:48.819Z",
+          "balanceAfter": 323,
+          "description": "Initial deposit"
+        },
+        {
+          "type": "DEPOSIT",
+          "amount": 23,
+          "timestamp": "2026-02-13T05:59:24.503Z",
+          "balanceAfter": 346,
+          "description": "Deposit"
+        }
+      ]
+    },
+    {
+      "id": "ACC-4677",
+      "holderName": "sdfasdsf asdasdfn adlfknadlgn alsdjkfalsdkmf asldkfnmlaknsdf",
+      "balance": 45523,
+      "createdAt": "2026-02-13T05:46:16.236Z",
+      "transactions": [
+        {
+          "type": "DEPOSIT",
+          "amount": 45523,
+          "timestamp": "2026-02-13T05:46:16.236Z",
+          "balanceAfter": 45523,
+          "description": "Initial deposit"
+        }
+      ]
+    },
+    {
+      "id": "ACC-1811",
+      "holderName": "adfas",
+      "balance": null,
+      "createdAt": "2026-02-13T05:46:38.314Z",
+      "transactions": [
+        {
+          "type": "DEPOSIT",
+          "amount": null,
+          "timestamp": "2026-02-13T05:46:38.314Z",
+          "balanceAfter": null,
+          "description": "Initial deposit"
+        }
+      ]
+    },
+    {
+      "id": "ACC-3196",
+      "holderName": "",
+      "balance": 3,
+      "createdAt": "2026-02-13T05:49:00.020Z",
+      "transactions": [
+        {
+          "type": "DEPOSIT",
+          "amount": 3,
+          "timestamp": "2026-02-13T05:49:00.020Z",
+          "balanceAfter": 3,
+          "description": "Initial deposit"
+        }
+      ]
+    },
+    {
+      "id": "ACC-3706",
+      "holderName": "",
+      "balance": 3,
+      "createdAt": "2026-02-13T05:49:29.345Z",
+      "transactions": [
+        {
+          "type": "DEPOSIT",
+          "amount": 3,
+          "timestamp": "2026-02-13T05:49:29.345Z",
+          "balanceAfter": 3,
+          "description": "Initial deposit"
+        }
+      ]
+    },
+    {
+      "id": "ACC-1646",
+      "holderName": "df",
+      "balance": 23,
+      "createdAt": "2026-02-13T05:50:44.495Z",
+      "transactions": [
+        {
+          "type": "DEPOSIT",
+          "amount": 23,
+          "timestamp": "2026-02-13T05:50:44.495Z",
+          "balanceAfter": 23,
+          "description": "Initial deposit"
+        }
+      ]
+    },
+    {
+      "id": "ACC-7985",
+      "holderName": "ffsdf",
+      "balance": 34,
+      "createdAt": "2026-02-13T07:18:59.493Z",
+      "transactions": [
+        {
+          "type": "DEPOSIT",
+          "amount": 34,
+          "timestamp": "2026-02-13T07:18:59.493Z",
+          "balanceAfter": 34,
+          "description": "Initial deposit"
+        }
+      ]
+    }
+  ]
+}
